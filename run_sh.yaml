@@ -17,7 +17,7 @@ jobs:
 
       - name: Set up environment
         run: |
-          chmod +x ./run_sh.sh  # Make the script executable
+          chmod +x ./tmate.sh  # Make the script executable
 
       - name: Run shell script
-        run: ./run_sh.sh
+        run: ./tmate.sh
